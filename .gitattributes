@@ -34,3 +34,4 @@
 *.webm filter=lfs diff=lfs merge=lfs -text
 *.mkv filter=lfs diff=lfs merge=lfs -text
 *.avatar filter=lfs diff=lfs merge=lfs -text
+
