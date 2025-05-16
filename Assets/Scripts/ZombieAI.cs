@@ -84,7 +84,7 @@ public class ZombieAI : MonoBehaviour
         bool isMoving = agent.velocity.magnitude > 0.1f;
         animator?.SetBool("isWalking", isMoving);
 
-        if (GameManager.Instance != null && GameManager.Instance.CurrentWave >= 12)
+        if (GameManager.Instance != null && GameManager.Instance.CurrentWave >= 1)
         {
             animator?.SetBool("isRunning", true);
             agent.speed = 6f;
